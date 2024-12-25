@@ -1,0 +1,29 @@
+@import url('./background.css');
+@import url('./header.css');
+@import url('./app.css');
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Indie+Flower&family=Mukta:wght@200;300;400;500;600;700;800&family=Nerko+One&display=swap');
+
+:root{
+    --color-heart: #CF879B;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Faculty Glyphic", serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@keyframes heart_animate {
+    0% {
+        text-shadow: 0 0 10px var(--color-heart);
+    } 90% {
+        text-shadow: 0 0 0 var(--color-heart);
+    }
+}

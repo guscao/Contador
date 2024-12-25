@@ -1,0 +1,106 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 390px;
+    padding-top: 100px;
+}
+
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    max-width: 380px;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    gap: 30px;
+    padding: 0 30px;
+}
+
+.carousel-item {
+    flex: 0 0 90%;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.carousel-item img {
+    max-width: 100%; 
+    max-height: 100%; 
+    width: auto;
+    height: auto;
+    display: block;
+    border-radius: 45px;
+}
+
+.carousel-indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dot.active {
+    background-color: var(--color-heart);
+    border: 2px solid var(--color-heart);
+}
+
+#app_content_casal {
+    color: var(--color-heart);
+    font-size: 28pt;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+#contador {
+    width: 90%;
+    text-align: center;
+    color: #fff;
+    font-size: 14pt;
+    margin: 0 auto;
+}
+
+#agradecido {
+    width: 90%;
+    text-align: center;
+    color: #fff;
+    font-size: 16pt;
+    margin: 0 auto;
+}
+
+.fa-heart-o {
+    animation: heart_animate 0.6s linear infinite;
+}
+
+#tartarugas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#tartarugas img {
+    width: 100px;
+    height: auto;
+}

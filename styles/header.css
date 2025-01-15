@@ -23,7 +23,7 @@ header {
     justify-content: center;
 }
 
-#header_otavio, #header_otavio img{
+#header_gustavo, #header_gustavo img{
     width: 125px;
     height: 125px;
     object-fit: cover;
@@ -34,7 +34,7 @@ header {
     box-shadow: -3px 3px 4px #000;
 }
 
-#header_agata, #header_agata img{
+#header_yasmin, #header_yasmin img{
     width: 125px;
     height: 125px;
     object-fit: cover;

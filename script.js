@@ -58,7 +58,7 @@ updateCarousel(currentIndex);
 // Contador de tempo desde que namoro com essa menina linda e maravilhosa
 
 function calcularDiferenca() {
-    const dataInicial = new Date('2024-05-23T22:11:00');
+    const dataInicial = new Date('2024-08-16T00:00:00');
     const agora = new Date();
 
     if (agora < dataInicial) {
